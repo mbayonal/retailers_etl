@@ -1,0 +1,80 @@
+{
+  "expectations": [
+    {
+      "expectation_type": "ExpectColumnValuesToNotBeNull",
+      "kwargs": {
+        "column": "Run_Date"
+      }
+    },
+    {
+      "expectation_type": "ExpectColumnValuesToNotBeNull",
+      "kwargs": {
+        "column": "Retailer"
+      }
+    },
+    {
+      "expectation_type": "ExpectColumnValuesToNotBeNull",
+      "kwargs": {
+        "column": "Store_Info"
+      }
+    },
+    {
+      "expectation_type": "ExpectColumnValuesToNotBeNull",
+      "kwargs": {
+        "column": "Category_Traversal"
+      }
+    },
+    {
+      "expectation_type": "ExpectColumnValuesToNotBeNull",
+      "kwargs": {
+        "column": "Brand"
+      }
+    },
+    {
+      "expectation_type": "ExpectColumnValuesToNotBeNull",
+      "kwargs": {
+        "column": "Product_Name"
+      }
+    },
+    {
+      "expectation_type": "ExpectColumnValuesToBeUnique",
+      "kwargs": {
+        "column": "Product_ID"
+      }
+    },
+    {
+      "expectation_type": "ExpectColumnValuesToNotBeNull",
+      "kwargs": {
+        "column": "Variant_Info"
+      }
+    },
+    {
+      "expectation_type": "ExpectColumnValuesToNotBeNull",
+      "kwargs": {
+        "column": "Size_Or_Quantity"
+      }
+    },
+    {
+      "expectation_type": "ExpectColumnValuesToBeBetween",
+      "kwargs": {
+        "column": "Original_Price",
+        "min_value": 4, 
+        "max_value": 5760
+      }
+    },
+    {
+      "expectation_type": "ExpectColumnValuesToBeBetween",
+      "kwargs": {
+        "column": "Sale_Price",
+        "min_value": 2.4,
+        "max_value": 9644.4
+      }
+    },
+    {
+      "expectation_type": "ExpectColumnValuesToNotBeNull",
+      "kwargs": {
+        "column": "In_Stock"
+      }
+    }
+  ]
+}

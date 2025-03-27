@@ -1,0 +1,31 @@
+{
+  "schema_validation": {
+    "passed": true,
+    "details": {
+      "missing_columns": [],
+      "extra_columns": []
+    }
+  },
+  "data_type_validation": {
+    "passed": true,
+    "details": {
+      "type_mismatches": []
+    }
+  },
+  "duplicate_check": {
+    "passed": true,
+    "details": {
+      "total_records": 33603,
+      "unique_records": 33603,
+      "duplicate_records": 0
+    }
+  },
+  "null_check": {
+    "passed": true,
+    "details": {
+      "null_counts": {}
+    }
+  },
+  "overall_passed": true,
+  "timestamp": "2025-03-25T20:51:43.719433"
+}
